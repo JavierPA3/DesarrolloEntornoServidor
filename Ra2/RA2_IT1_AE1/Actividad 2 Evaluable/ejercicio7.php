@@ -28,4 +28,4 @@ print("<p>");
 print("Decrementa el valor en 1. Valor ahora ". $number = $number - 1 .".");
 
 ?>
-<a href=''>Enlace al github</a>
+<a href='https://github.com/JavierPA3/DesarrolloEntornoServidor/blob/main/Ra2/RA2_IT1_AE1/Actividad%202%20Evaluable/ejercicio7.php'>Enlace al github</a>
