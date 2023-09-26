@@ -11,4 +11,4 @@ echo $hola;
 
 ?>
 
-<a href=''>Enlace al github</a>
+<a href='https://github.com/JavierPA3/DesarrolloEntornoServidor/blob/main/Ra2/RA2_IT1_AE1/Actividad%202%20Evaluable/ejercicio10.php'>Enlace al github</a>
