@@ -18,4 +18,4 @@ $foto = "img/descarga.png";
             <li> Linkedin: <?php echo "<a href=\"$linkedin\">Linkedin</a>"?></li>
             <li> Foto personal: <?php echo "<img src=\"$foto\">" ?> </li>
 
-            <a href=''>Enlace al github</a>
+            <a href='https://github.com/JavierPA3/DesarrolloEntornoServidor/blob/main/Ra2/RA2_IT1_AE1/Actividad%202%20Evaluable/ejercicio2.php'>Enlace al github</a>
