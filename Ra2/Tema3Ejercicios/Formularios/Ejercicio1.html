@@ -1,0 +1,34 @@
+<?php
+
+
+
+$array[0] = $_POST['nombre'];
+$array[1] = $_POST['apellidos'];
+$array[2] = $_POST['tlf'];
+$array[3] = $_POST['email'];
+
+foreach ($array as $value) {
+    echo $value;
+    echo "<br>";
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "Ejercicio1.php" method="post">
+        <input type="text" name ="nombre" placeholder="Nombre" value=""/>
+        <input type="text" name ="apellidos" placeholder="Apellidos" value=""/>
+        <input type="text" name ="tlf" placeholder="Tlf" value=""/>
+        <input type="text" name ="email" placeholder="Email" value=""/>
+
+        <input type="submit" name ="enviar" value="Mono Fumón"/>
+    </form>
+</body>
+</html>

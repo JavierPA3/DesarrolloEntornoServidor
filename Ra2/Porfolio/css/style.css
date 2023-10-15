@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #555;
+}

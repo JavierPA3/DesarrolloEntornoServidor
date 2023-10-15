@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Estilo general de la tabla */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estilo de las celdas */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilo de los encabezados de columna */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de las celdas de entrada de usuario */
+input {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilo de las celdas de acierto */
+.acierto {
+    background-color: #c8f7c5; /* Color de fondo para celdas con acierto */
+}
+
+/* Estilo de las celdas de fallo */
+.fallo {
+    background-color: #ffcccc; /* Color de fondo para celdas con fallo */
+}
+
+/* Estilo de los íconos de respuesta */
+input + span {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px; /* Aumentar el ancho del botón para que se vea completo */
+}
+
+/* Estilo del botón de enviar al pasar el cursor sobre él */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h2 {
+    text-align: center; /* Alineación en el centro */
+    color: #333; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-top: 20px; /* Espacio superior */
+}
